@@ -7,4 +7,13 @@
 
 body {
   padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.logoButton{
+  margin: 30px auto;
+  height: 80px;
+}
+.main-btn-wrap{
+  margin: 40px 0px
 }

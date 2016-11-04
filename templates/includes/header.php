@@ -19,7 +19,8 @@ session_start();
         <link rel="stylesheet" href="/tracscare/css/bootstrap.min.css">
         <link rel="stylesheet" href="/tracscare/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="/tracscare/css/main.css">
-        <script src="/tracscarejs/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="/tracscare/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="/tracscare/js/vendor/barba.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>

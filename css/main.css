@@ -3,7 +3,9 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.clear{
+  clear: both;
+}
 
 body {
   padding-bottom: 20px;
@@ -16,4 +18,17 @@ body {
 }
 .main-btn-wrap{
   margin: 40px 0px
+}
+
+.formSection{
+  padding:45px 0px;
+}
+.formBottom{
+  margin-top:20px;
+  border-top: 1px solid #e2e2e2;
+}
+#submitBtn {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
 }

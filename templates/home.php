@@ -20,12 +20,12 @@
         <div class="col-md-6">
           <img class="logoButton img-responsive" src="img/tracscare.png" alt="Tracscare logo"/>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p class="text-center main-btn-wrap"><a class="btn btn-default" href="templates/questionnaire.php?t=tracscare" role="button">Questionnaire &raquo;</a></p>
+          <p class="text-center main-btn-wrap"><a class="btn btn-success" href="templates/questionnaire.php?t=tracscare" role="button">Questionnaire &raquo;</a></p>
         </div>
         <div class="col-md-6">
           <img class="logoButton img-responsive" src="img/brookdale.png" alt="Brookdale logo"/>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p class="text-center main-btn-wrap"><a class="btn btn-default" href="templates/questionnaire.php?t=brookdale" role="button">Questionnaire &raquo;</a></p>
+          <p class="text-center main-btn-wrap"><a class="btn btn-success" href="templates/questionnaire.php?t=brookdale" role="button">Questionnaire &raquo;</a></p>
         </div>
       </div>
     </div>

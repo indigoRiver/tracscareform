@@ -3,7 +3,7 @@ session_start();
 if($_SERVER[HTTP_HOST] == 'localhost'){
   $url = 'http://localhost:3000/tracscare/';
 }else{
-  $url = "http://$_SERVER[HTTP_HOST]";
+  $url = "http://".$_SERVER[HTTP_HOST]."/tracscare";
 }
 ?>
 <!doctype html>

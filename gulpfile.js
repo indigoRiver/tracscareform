@@ -7,7 +7,7 @@ gulp.task('default', function() {
 });
 gulp.task('serve', function() {
     browserSync.init({
-      proxy: "localhost/tracscare"
+      proxy: "localhost/tracscare/"
     });
 
     gulp.watch("css/*.css").on('change', browserSync.reload);

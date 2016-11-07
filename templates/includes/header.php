@@ -1,6 +1,10 @@
 <?php
 session_start();
-$url = 'http://localhost:3000/tracscare/'
+if($_SERVER[HTTP_HOST] == 'localhost'){
+  $url = 'http://localhost:3000/tracscare/';
+}else{
+  $url = "http://$_SERVER[HTTP_HOST]";
+}
 ?>
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->

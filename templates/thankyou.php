@@ -19,7 +19,7 @@ $img = $_SESSION['img'];
 
     <div class="container">
       <!-- Example row of columns -->
-      <p>Your opinions and perceptions of <?php echo $company; ?> is really importnat to us, so thank you for filling this information out for us.</p>
+      <p>Your perceptions of <?php echo $company; ?> are really important to us, so thank you for filling this information out.</p>
     </div>
   </div>
 </div>

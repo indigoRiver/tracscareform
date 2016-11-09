@@ -5,9 +5,12 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Tracscare and Brookdale.</h1>
-        <h2>Our story...<h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <h1>Tracscare and Brookdale</h1>
+        <h2>Thank you for being part of our new brand journey.<h2>
+        <p><br />
+          We are about to start crafting a new brand for Tracscare and Brookdale we know we cannot do that without your valued input and help.<br /><br />
+Your perceptions of the brands you work with and alongside will help us on the journey in creating a more meaningful and emotionally connected brand for all of us to be proud of. Your thoughts and comments are treated with the strictest confidence at all times.
+. </p>
         <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
       </div>
     </div>
@@ -19,12 +22,10 @@
       <div class="row">
         <div class="col-md-6">
           <img class="logoButton img-responsive" src="img/tracscare.png" alt="Tracscare logo"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p class="text-center main-btn-wrap"><a class="btn btn-success" href="templates/questionnaire.php?t=tracscare" role="button">Questionnaire &raquo;</a></p>
         </div>
         <div class="col-md-6">
           <img class="logoButton img-responsive" src="img/brookdale.png" alt="Brookdale logo"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p class="text-center main-btn-wrap"><a class="btn btn-success" href="templates/questionnaire.php?t=brookdale" role="button">Questionnaire &raquo;</a></p>
         </div>
       </div>

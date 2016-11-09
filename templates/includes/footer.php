@@ -1,7 +1,8 @@
         <div class="container">
           <hr>
           <footer>
-            <p>&copy; Tracscare 2015</p>
+            <p>&copy; Tracscare/Brookdale 2016</p>
+            <p>Tracscare, PO Box 4, Swansea, SA1 3YJ</p>
           </footer>
         </div> <!-- /container -->
 

@@ -23,8 +23,8 @@ $img = $_SESSION['img'];
       <div class="container">
         <img class="img-responsive " src="<?php echo $img; ?>" />
 
-        <h1>So, you're from <span style="color: <?php echo $color; ?>"><?php echo $company; ?></span>...</h1>
-        <p>Please carry on by entering as much information as you can into the form below.</p>
+        <h1>Tell us a little bit more about you and <span style="color: <?php echo $color; ?>"><?php echo $company; ?></span>...</h1>
+        <p>Remember there are no right or wrong answers. You can make them as detailed or as simple as you like.</p>
         <small>Not from <?php echo $company; ?>? <a href="<?php echo $url; ?>">Click here</a> to go back.</small>
       </div>
     </div>

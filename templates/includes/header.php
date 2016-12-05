@@ -1,9 +1,9 @@
 <?php
 session_start();
 if($_SERVER[HTTP_HOST] == 'localhost'){
-  $url = 'http://localhost:3000/tracscare/';
+  $url = 'http://localhost:8888/tracscareform/';
 }else{
-  $url = "http://".$_SERVER[HTTP_HOST]."/tracscare";
+  $url = "http://".$_SERVER[HTTP_HOST]."/tracscareform";
 }
 ?>
 <!doctype html>
@@ -21,11 +21,11 @@ if($_SERVER[HTTP_HOST] == 'localhost'){
         <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link rel="stylesheet" href="/tracscare/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/tracscare/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/tracscare/css/main.css">
-        <script src="/tracscare/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="/tracscare/js/vendor/barba.min.js"></script>
+        <link rel="stylesheet" href="/tracscareform/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/tracscareform/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/tracscareform/css/main.css">
+        <script src="/tracscareform/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="/tracscareform/js/vendor/barba.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>

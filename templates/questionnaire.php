@@ -1,4 +1,6 @@
-<?php include('includes/header.php') ?>
+<?php
+include('includes/header.php');
+?>
 <?php
 if(isset($_GET['t']) && $_GET['t'] == 'tracscare'){
   $_SESSION['currentChoice'] = 'Tracscare';
@@ -32,21 +34,21 @@ $img = $_SESSION['img'];
     <div class="container">
       <!-- Example row of columns -->
       <h2 class="text-center">Questionnaire</h2>
-      <form action="<?php echo $url; ?>/templates/thankyou.php">
+      <form action="thankyou.php" method="post">
 
         <div class="formTop formSection">
           <div class="col-md-8">
               <div class="form-group">
                 <label for="nameField">Name</label>
-                <input type="text" class="form-control" id="nameField" placeholder="Name">
+                <input type="text" name="fullName" class="form-control" id="nameField" placeholder="Name">
               </div>
               <div class="form-group">
                 <label for="emailField">Email address</label>
-                <input type="email" class="form-control" id="emailField" placeholder="Email address">
+                <input type="email" name="emailAddress" class="form-control" id="emailField" placeholder="Email address">
               </div>
               <div class="form-group">
                 <label for="jobroleField">Job role</label>
-                <input type="password" class="form-control" id="jobroleField" placeholder="Job role">
+                <input type="text" name="jobRole" class="form-control" id="jobroleField" placeholder="Job role">
               </div>
 
           </div>
@@ -60,39 +62,39 @@ $img = $_SESSION['img'];
           <div class="col-md-8">
             <div class="form-group">
               <label for="q1">What qualities and characteristics do you want people to think of when they hear your name or see your product?</label>
-              <textarea class="form-control" id="q1" rows="3"></textarea>
+              <textarea class="form-control" name="question1" id="q1" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q2">What feelings do you want them to have?</label>
-              <textarea class="form-control" id="q2" rows="3"></textarea>
+              <textarea class="form-control" name="question2"  id="q2" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q3">What do you want them to expect?</label>
-              <textarea class="form-control" id="q3" rows="3"></textarea>
+              <textarea class="form-control" name="question3"  id="q3" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q4">Can you support all those ideas in fact? If not, what do you have to do to make it true?</label>
-              <textarea class="form-control" id="q4" rows="3"></textarea>
+              <textarea class="form-control" name="question4"  id="q4" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q5">What can you honestly say sets you apart? Look at everything</label>
-              <textarea class="form-control" id="q5" rows="3"></textarea>
+              <textarea class="form-control" name="question5"  id="q5" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q6">Values - what are they, are they confused or disjointed?</label>
-              <textarea class="form-control" id="q6" rows="3"></textarea>
+              <textarea class="form-control" name="question6"  id="q6" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q7">Has the vision changed?</label>
-              <textarea class="form-control" id="q7" rows="3"></textarea>
+              <textarea class="form-control" name="question7"  id="q7" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q8">Why doesn't it work now and what does it need to do?</label>
-              <textarea class="form-control" id="q8" rows="3"></textarea>
+              <textarea class="form-control" name="question8"  id="q8" rows="3"></textarea>
             </div>
             <div class="form-group">
               <label for="q9">Mission - do you have one - have we changed, do is it need to evolve now with where we are...</label>
-              <textarea class="form-control" id="q9" rows="3"></textarea>
+              <textarea class="form-control" name="question9"  id="q9" rows="3"></textarea>
             </div>
 
 

@@ -5,6 +5,8 @@ if($_SERVER[HTTP_HOST] == 'localhost'){
 }else{
   $url = "http://".$_SERVER[HTTP_HOST]."/tracscareform";
 }
+include('includes/config.php');
+
 ?>
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->

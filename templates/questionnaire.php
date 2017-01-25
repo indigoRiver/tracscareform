@@ -61,50 +61,62 @@ $img = $_SESSION['img'];
         <div class="formBottom formSection">
           <div class="col-md-8">
             <div class="form-group">
-              <label for="q1">What qualities and characteristics do you want people to think of when they hear your name or see your product?</label>
+              <label for="q1">1. Please select what type of service you work for?</label>
               <textarea class="form-control" name="question1" id="q1" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q2">What feelings do you want them to have?</label>
-              <textarea class="form-control" name="question2"  id="q2" rows="3"></textarea>
+              <label for="q2">2. When you think of your organisation, what are the first 5 words that come to mind?</label>
+              <input type="text" class="form-control" name="question2[]"  id="q2" placeholder="Word one" rows="3"></textarea>
+              <input type="text" class="form-control" name="question2[]"  id="q2" placeholder="Word two" rows="3"></textarea>
+              <input type="text" class="form-control" name="question2[]"  id="q2" placeholder="Word three" rows="3"></textarea>
+              <input type="text" class="form-control" name="question2[]"  id="q2" placeholder="Word four" rows="3"></textarea>
+              <input type="text" class="form-control" name="question2[]"  id="q2" placeholder="Word five" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q3">What do you want them to expect?</label>
+              <label for="q3">3. What are our company values? </label>
               <textarea class="form-control" name="question3"  id="q3" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q4">Can you support all those ideas in fact? If not, what do you have to do to make it true?</label>
+              <label for="q4">4. What do we do well?</label>
               <textarea class="form-control" name="question4"  id="q4" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q5">What can you honestly say sets you apart? Look at everything</label>
+              <label for="q5">5. What could we do better?</label>
               <textarea class="form-control" name="question5"  id="q5" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q6">Values - what are they, are they confused or disjointed?</label>
+              <label for="q6">6. What appealed to you about your organisation to make you want to work for them?</label>
               <textarea class="form-control" name="question6"  id="q6" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q7">Has the vision changed?</label>
+              <label for="q7">7. If you were describing your organisation to others, what would you say, and would you recommend them?</label>
               <textarea class="form-control" name="question7"  id="q7" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q8">Why doesn't it work now and what does it need to do?</label>
+              <label for="q8">8. Looking at other people's branding, what logos do you like and why?</label>
               <textarea class="form-control" name="question8"  id="q8" rows="3"></textarea>
             </div>
             <div class="form-group">
-              <label for="q9">Mission - do you have one - have we changed, do is it need to evolve now with where we are...</label>
+              <label for="q9">9. Do you like/dislike the current logo and if so why?</label>
               <textarea class="form-control" name="question9"  id="q9" rows="3"></textarea>
             </div>
-
-
-
+            <div class="form-group">
+              <label for="q10">10. If you could change anything about your organisation what would it be and why?</label>
+              <textarea class="form-control" name="question10"  id="q10" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="q11">11. If we were an animal, what animal would we be and why?</label>
+              <textarea class="form-control" name="question11"  id="q11" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="q12">12. Is there anything else that you want to tell us about our brand, name, logo, or values?</label>
+              <textarea class="form-control" name="question12"  id="q12" rows="3"></textarea>
+            </div>
           </div>
           <div class="col-md-4">
             <h4>Questions about <?php echo $company; ?></h4>
             <p>Now please fill out the questions which will help us gain an understanding into <?php echo $company; ?> and how it's perceived internally.</p>
           </div>
-
         </div>
         <div class="clear"></div>
         <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>

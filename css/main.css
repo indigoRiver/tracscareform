@@ -21,7 +21,7 @@ body {
 }
 
 .formSection{
-  padding:45px 0px;
+  padding: 45px 0px;
 }
 .formBottom{
   margin-top:20px;
@@ -34,5 +34,27 @@ body {
 }
 
 .validation{
-  color:#ff0033;
+  color:# ff0033;
+}
+
+.form-group input[type=checkbox]{
+    margin: 19px 10px 0 0px;
+  }
+
+input#q2{
+  width: 19.6%;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+@media only screen (max-width: 500px;){
+  
+}
+
+textarea{
+  resize: none !important;
+}
+
+label{
+  display: block !important;
 }

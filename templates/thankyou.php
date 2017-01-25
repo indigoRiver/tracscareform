@@ -18,6 +18,12 @@
     $question7 = $_POST['question7'];
     $question8 = $_POST['question8'];
     $question9 = $_POST['question9'];
+    $question10 = $_POST['question10'];
+    $question11 = $_POST['question11'];
+    $question12 = $_POST['question12'];
+
+    $question2 = implode(",", $question2);
+
     $company = $_SESSION['currentChoice'];
 
     $validation = array(
@@ -33,22 +39,22 @@
       '<p class="validation">Question 7<p>' => $question7,
       '<p class="validation">Question 8<p>' => $question8,
       '<p class="validation">Question 9<p>' => $question9,
-      '<p class="validation">Question 10</p>' => $company,
+      '<p class="validation">Question 10<p>' => $question10
     );
 
     $verification = true;
 
     foreach($validation as $key=>$value){
       if(empty($value)){
-          
+
           echo "You must fill out ".$key." to complete the questionnaire.";
           $verification = false;
       }
     }
 
     if($verification == true){
-      $sql = 'INSERT into tracscare_questionaire (name, email_address, job_role, question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9, time_submitted, company) VALUES("'.$name.'" , "'.$email.'" , "'.$job.'" , "'.$question1.'" , "'.$question2.'" , "'.$question3.'" , "'.$question4.'" , "'.$question5.'" , "'.$question6.'" , "'.$question7.'" , "'.$question8.'" , "'.$question9.'", NOW(), "'.$company.'")';
-      mysqli_query($connection, $sql);
+      $sql = 'INSERT into tracscare_questionaire (name, email_address, job_role, question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9, question_10, question_11, question_12, time_submitted, company) VALUES("'.$name.'" , "'.$email.'" , "'.$job.'" , "'.$question1.'" , "'.$question2.'" , "'.$question3.'" , "'.$question4.'" , "'.$question5.'" , "'.$question6.'" , "'.$question7.'" , "'.$question8.'" , "'.$question9.'" , "'.$question10.'", "'.$question11.'", "'.$question12.'", NOW(), "'.$company.'")';
+      mysqli_query($connection, $sql) or die(mysqli_error($connection));;
     } else {
       echo "I'm sorry but your information hasn't been submitted. Please try again.";
     }
